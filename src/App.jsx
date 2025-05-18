@@ -28,7 +28,7 @@ function App() {
       setAccount(address);
       setSigner(signer2);
       setContract(contract);
-      setAccount(address);
+     
       console.log("Wallet connected:", address);
     } catch (err) {
       console.error("Error connecting wallet:", err);
